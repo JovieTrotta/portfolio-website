@@ -1,0 +1,172 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #FFFFFF;
+  color: #313131;
+  height: 675px;
+}
+
+#about {
+  background-color: #E3D0D8;
+  color: #FFFFFF;
+  height: 1050px;
+  text-align: center;
+}
+
+#work {
+  background-color: #FFFFFF;
+  color: #313131;
+  height: 800px;
+  text-align: center;
+}
+
+#contact {
+  background-color: #E3D0D8;
+  color: #FFFFFF;
+  height: 750px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: right;
+  text-align: center;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+nav ul li {
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+  padding-right: 20px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  color: #827081;
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 64px;
+  padding-top: 140px;
+}
+
+header h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 48px;
+}
+
+header h2 span {
+  color: #827081;
+}
+
+header h3 {
+  font-size: 24px;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 200px;
+}
+
+#about img {
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#about p {
+  font-size: 24px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 85px;
+  text-align: justify;
+}
+
+#about h5 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/***** WORK *****/
+
+#work h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 200px;
+}
+
+#work p {
+  font-size: 24px;
+}
+
+#work img {
+  border-color: #b7b7b7;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/***** CONTACT *****/
+
+#contact h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+#contact h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact p {
+  font-size: 24px;
+  text-align: center;
+}
+
+#contact p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact i {
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+
+#contact h5 {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 280px;
+  text-align: center;
+}
